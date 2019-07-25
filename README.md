@@ -17,10 +17,8 @@ The code uses the ThingPulse SSD1306 library
 `mogrify -resize 128x64 +dither -format xbm *.png`
 
 - convert xbm to file  
-`cat *.xbm | sed s/static/const/ | sed s/=/PROGMEM=/  > puke.h `   
-`convert trash.psd -coalesce trash%d.png`  
-`mogrify -resize 128x64 +dither -format xbm *.png
-cat *.xbm | sed s/static/const/ | sed s/=/PROGMEM=/  > trash.h`
+`cat *.xbm | sed s/static/const/ | sed s/=/PROGMEM=/  > puke.h ` 
+
 
 
 
