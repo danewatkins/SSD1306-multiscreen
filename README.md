@@ -21,11 +21,10 @@ The code uses the ThingPulse SSD1306 library
 
 
 
-ATOM regex search
+ATOM regex search\
 char trash(.*)_bits
 
 uint8_t trash$1
 
-List files just by their names, useful for creating arrays
-
+List files just by their names, useful for creating arrays/
 ls -A1
